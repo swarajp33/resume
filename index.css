@@ -11,7 +11,7 @@ body {
 /* Body Header */
 
 #body-header {
-  height: 65vh;
+  height: 60vh;
   opacity: 0.8;
   background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
   background-size: cover;
@@ -30,9 +30,9 @@ body {
 
 .horizontal-list li {
   display: inline-block;
-  margin: 0px 8px 8px 0px;
-  font-weight: 100;
-  font-size: 0.9rem;
+  margin: 0px 25px 10px 0px;
+  font-weight: 150;
+  font-size: 18px;
 }
 
 .horizontal-list li a {
@@ -82,4 +82,211 @@ body {
 .social-icons li a img {
   width: 1rem;
   padding: 8px;
+}
+#about {
+  height: 300px;
+  margin: auto;
+}
+#about-pic {
+  width: 225px;
+  height: 225px;
+  margin: auto;
+}
+#about-pic img {
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  margin-top: -113px;
+  border: 4px solid white;
+  position: relative;
+  box-shadow: 0px 0px 8px rgb(119, 119, 119);
+}
+#about-info {
+  width: 65vw;
+  margin: auto;
+}
+#about-info p {
+  margin-top: -80px;
+  font-size: 24px;
+  color: rgb(125, 125, 125);
+  font-family: calibri;
+  word-spacing: 5px;
+  font-weight: 550;
+}
+
+#skills {
+  height: 350px;
+  background-color: rgb(231, 231, 231);
+}
+#skill-head h3 {
+  padding-top: 30px;
+  color: rgb(30, 48, 80);
+  font-family: calibri;
+  font-weight: 530;
+  text-align: center;
+}
+
+#skill-stack {
+  width: 80vw;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#skill-stack div {
+  width: 250px;
+  height: 35px;
+  background-color: rgb(149, 149, 149);
+  border-radius: 12px;
+}
+.stack-list {
+  margin-top: 20px;
+}
+#skills-1 p {
+  width: 150px;
+  height: 35px;
+  color: white;
+  font-size: 27px;
+  font-family: calibri;
+  background-color: yellowgreen;
+  padding-left: 30px;
+  border-bottom-left-radius: 12px;
+  box-shadow: 1px 0px rgb(124, 124, 124);
+}
+
+#skills-2 p {
+  width: 180px;
+  height: 35px;
+  color: white;
+  font-size: 27px;
+  font-family: calibri;
+  background-color: rgb(238, 151, 11);
+  padding-left: 30px;
+  border-bottom-left-radius: 12px;
+  box-shadow: 1px 0px rgb(124, 124, 124);
+}
+
+#skills-3 p {
+  width: 160px;
+  height: 35px;
+  color: white;
+  font-size: 27px;
+  font-family: calibri;
+  background-color: rgb(12, 134, 255);
+  padding-left: 30px;
+  border-bottom-left-radius: 12px;
+  box-shadow: 1px 0px rgb(124, 124, 124);
+}
+
+#skills-4 p {
+  width: 160px;
+  height: 35px;
+  color: white;
+  font-size: 27px;
+  font-family: calibri;
+  background-color: rgb(3, 171, 20);
+  padding-left: 30px;
+  border-bottom-left-radius: 12px;
+  box-shadow: 1px 0px rgb(124, 124, 124);
+}
+
+#skills-5 p {
+  width: 120px;
+  height: 35px;
+  color: white;
+  font-size: 27px;
+  font-family: calibri;
+  background-color: rgb(217, 93, 180);
+  padding-left: 30px;
+  border-bottom-left-radius: 12px;
+  box-shadow: 1px 0px rgb(124, 124, 124);
+}
+
+#skills-6 p {
+  width: 160px;
+  height: 35px;
+  color: white;
+  font-size: 27px;
+  font-family: calibri;
+  background-color: rgb(131, 3, 3);
+  padding-left: 30px;
+  border-bottom-left-radius: 12px;
+  box-shadow: 1px 0px rgb(124, 124, 124);
+}
+
+#skills-7 p {
+  width: 180px;
+  height: 35px;
+  color: white;
+  font-size: 27px;
+  font-family: calibri;
+  background-color: rgb(100, 7, 163);
+  padding-left: 30px;
+  border-bottom-left-radius: 12px;
+  box-shadow: 1px 0px rgb(124, 124, 124);
+}
+
+#footer {
+  height: 500px;
+  background-image: linear-gradient(90deg, rgb(54, 36, 115), rgb(123, 43, 143));
+}
+
+#footer-body {
+  display: flex;
+  justify-content: space-evenly;
+}
+#footer-head {
+  padding: 30px 0px;
+}
+#footer-head h3 {
+  color: white;
+  font-family: calibri;
+  font-weight: 500;
+  text-align: center;
+}
+
+.footer-sec {
+  width: 35vw;
+  min-height: 300px;
+}
+
+.footer-sec div input,
+textarea {
+  width: 80%;
+  color: white;
+  outline: none;
+  margin: 15px 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid white;
+  padding: 5px 0px;
+  font-size: 18px;
+}
+
+#name1 {
+  margin-top: 10px;
+}
+
+#button span {
+  margin: 10px 12vw;
+  padding: 5px 0px;
+  color: white;
+  border: 2px solid white;
+  font-size: 20px;
+  font-family: calibri;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#contact-2 {
+  margin-top: 20px;
+  color: white;
+  font-family: calibri;
+  font-size: 18px;
+}
+#footer-icons {
+  margin-top: 30px;
 }
